@@ -12,7 +12,7 @@ namespace VinxTech.API.Controllers
     public class BranchController : ControllerBase
     {
         private readonly IBranchRepositories branchRepositories;
-
+        //add extra line for git test
         public BranchController(IBranchRepositories branchRepositories)
         {
             this.branchRepositories = branchRepositories;
