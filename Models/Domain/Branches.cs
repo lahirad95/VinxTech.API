@@ -3,7 +3,7 @@
 namespace VinxTech.API.Models.Domain
 {
     public class Branches
-    {
+    {//add extra lines
         [Key]
         public int Id { get; set; }
         [Required]
