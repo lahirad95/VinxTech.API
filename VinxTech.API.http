@@ -1,0 +1,6 @@
+@VinxTech.API_HostAddress = http://localhost:5244
+
+GET {{VinxTech.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
