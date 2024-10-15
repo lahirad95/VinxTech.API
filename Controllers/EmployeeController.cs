@@ -12,6 +12,9 @@ namespace VinxTech.API.Controllers
 {
     [Route("test/api/[controller]")]
     [ApiController]
+
+
+    //testing command line added
     public class EmployeeController : ControllerBase
     {
         private readonly IEmployeesRepositories employeesRepositories;
@@ -148,14 +151,6 @@ namespace VinxTech.API.Controllers
             try
             {
                 var(employee, count) = await employeesRepositories.GetAll(PageNumber, Pazesize);
-                //var responseData = new ResponseDTO
-                //{
-                //    Status = "True",
-                //    Message = "",
-                //    "Count" = count,
-                //    Data = new { employee },
-                //    Errors = new List<string>()
-                //};
 
                 var responseData = new
                 {
