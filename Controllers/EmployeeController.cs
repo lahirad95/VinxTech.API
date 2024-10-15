@@ -144,7 +144,6 @@ namespace VinxTech.API.Controllers
         }
 
         [HttpGet("getall")]
-        [Authorize]
         public async Task<IActionResult> GetAll([FromQuery] Int32 PageNumber, [FromQuery] Int32 Pazesize)
         {
 
