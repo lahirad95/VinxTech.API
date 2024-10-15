@@ -1,6 +1,8 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using VinxTech.API.CustomActionFilters;
+using VinxTech.API.Models.Domain;
 using VinxTech.API.Models.DTOs.Employees;
 using VinxTech.API.Models.DTOs.Services;
 using VinxTech.API.Models.ResponseDTOs;
@@ -20,6 +22,7 @@ namespace VinxTech.API.Controllers
 
         [HttpPost("add")]
         [ValidateModel]
+
         public async Task<IActionResult> Add([FromBody] AddEmployeeRequestDTO addEmployeeRequestDTO)
         {
             try
@@ -138,20 +141,31 @@ namespace VinxTech.API.Controllers
         }
 
         [HttpGet("getall")]
-
+        [Authorize]
         public async Task<IActionResult> GetAll([FromQuery] Int32 PageNumber, [FromQuery] Int32 Pazesize)
         {
 
             try
             {
-                var employee = await employeesRepositories.GetAll(PageNumber, Pazesize);
-                var responseData = new ResponseDTO
+                var(employee, count) = await employeesRepositories.GetAll(PageNumber, Pazesize);
+                //var responseData = new ResponseDTO
+                //{
+                //    Status = "True",
+                //    Message = "",
+                //    "Count" = count,
+                //    Data = new { employee },
+                //    Errors = new List<string>()
+                //};
+
+                var responseData = new
                 {
                     Status = "True",
                     Message = "",
+                    Count = count,
                     Data = new { employee },
-                    Errors = new List<string>()
+                    Errors = new List<string>(),
                 };
+
                 return Ok(responseData);
             }
             catch (Exception ex)
