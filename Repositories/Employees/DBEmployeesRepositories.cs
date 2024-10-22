@@ -439,6 +439,7 @@ namespace VinxTech.API.Repositories.Employees
         {
             try
             {
+                //
                 var userExists = await vinxDbContext.Employees.FirstOrDefaultAsync(u => u.IdNumber == employeeActivationRequestDTO.IdNumber);
 
                 if (userExists != null)
