@@ -16,7 +16,121 @@ namespace VinxTech.API.Repositories
         {
             this.vinxDbContext = vinxDbContext;
         }
+        public async Task<bool> Delete(string UserId)
+        {
+            try
+            {
 
+                var userExists = await vinxDbContext.Users.FirstOrDefaultAsync(u => u.Username == UserId && u.IsActive == true);
+
+                if (userExists != null)
+                {
+                    vinxDbContext.Users.Remove(userExists);
+                    await vinxDbContext.SaveChangesAsync();
+                    return true;
+                }
+                else
+                {
+                    return false;
+                }
+                  
+            }
+            catch (Exception)
+            {
+
+                return false;
+            }
+        }
+        public async Task<(List<UserGetAllResponseDTO>, int TotalCount)> GetAll(int PageNumber, int PageSize)
+        {
+            List<UserGetAllResponseDTO> userGetAllResponseDTOs = new List<UserGetAllResponseDTO>();
+
+            var UserCount = await vinxDbContext.Users.Where(q => q.IsActive == true).CountAsync();
+
+            // Query to get the employee data with paging
+            var users = await(
+                from es in vinxDbContext.Users 
+                join s in vinxDbContext.Branches
+                on es.Breanch  equals s.Id
+                join r in vinxDbContext.Roles 
+                on es.Role equals r.Id
+                where es.IsActive == true
+                select new
+                {
+
+                    Username = es.Username,
+                    firstNameEn = es.firstNameEn,
+                    lastNameEn = es.lastNameEn,
+                    firstNameAr = es.firstNameAr,
+                    lastNameAr = es.lastNameAr,
+                    Email = es.Email,
+                    MobileNumber = es.MobileNumber,
+                    DOB = es.DOB,
+                    IdNumber = es.IdNumber,
+                    IdExpiryDate = es.IdExpiryDate,
+                    Role = es.Role,
+                    HireDate = es.HireDate,
+                    IsActive = es.IsActive,
+                    Image = es.Image,
+                    CreatedDate = es.CreatedAt,
+                    Gender = es.Gender,
+                    Nationality = es.Nationality,
+
+                    BreanchAr = s.NameAr,
+                    BreanchEn = s.NameEn,
+                    BreanchId = s.Id,
+                    BreanchDescriptionEn = s.DescriptionEn,
+                    BreanchDescriptionAr = s.DescriptionAr,
+
+                    RoleName = r.Name,
+                    RoleDescription = r.Description,
+                    RoleId = r.Id,
+
+
+                }
+            )
+            .Skip((PageNumber - 1) * PageSize) // Skip the previous pages' data
+            .Take(PageSize).OrderBy(es => es.CreatedDate)                    // Take the number of records equal to PageSize
+            .ToListAsync();
+
+            if (users != null && users.Count > 0)
+            {
+                foreach (var usr in users)
+                {
+                    // Create a new EmployeebyIdResponse for each employee
+                    UserGetAllResponseDTO userGetAllResponse = new UserGetAllResponseDTO
+                    {
+                        Username    = usr.Username,
+                        firstNameEn = usr.firstNameEn,
+                        lastNameEn = usr.lastNameEn,
+                        firstNameAr = usr.firstNameAr,
+                        lastNameAr = usr.lastNameAr,
+                        Email = usr.Email,
+                        MobileNumber = usr.MobileNumber,
+                        DOB = usr.DOB,
+                        IdNumber = usr.IdNumber,
+                        HireDate = usr.HireDate,
+                        IdExpiryDate = usr.IdExpiryDate,
+                        IsActive = usr.IsActive,
+                        Image = usr.Image,
+                        Gender = usr.Gender,
+                        Nationality = usr.Nationality,
+
+                        Breanch = usr.BreanchId,
+                        BreanchEn = usr.BreanchEn,
+                        BreanchAr = usr.BreanchAr,
+                        BreanchDescriptionEn = usr.BreanchDescriptionEn,
+                        BreanchDescriptionAr = usr.BreanchDescriptionAr,
+
+                        RoleName = usr.RoleName,
+                        RoleDescription = usr.RoleDescription,
+                        RoleId = usr.RoleId,
+                    };
+                    userGetAllResponseDTOs.Add(userGetAllResponse);
+                }
+            }
+            return (userGetAllResponseDTOs, UserCount);
+        }
         public async Task<bool> login(LoginRequestDTO loginRequestDTO)
         {
             try
