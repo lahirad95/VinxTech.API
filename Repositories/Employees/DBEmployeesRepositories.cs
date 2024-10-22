@@ -160,7 +160,7 @@ namespace VinxTech.API.Repositories.Employees
             editEmployeeResponseDTO.IdNumber = id;
             editEmployeeResponseDTO.HireDate = editEmployeeRequestDTO.HireDate;
             editEmployeeResponseDTO.IdExpiryDate = editEmployeeRequestDTO.IdExpiryDate;
-            editEmployeeResponseDTO.IsActive = true;
+            //editEmployeeResponseDTO.IsActive = true;
             editEmployeeResponseDTO.CretedBy = editEmployeeRequestDTO.CretedBy;
 
             var Getbrach = await vinxDbContext.Branches
@@ -221,6 +221,8 @@ namespace VinxTech.API.Repositories.Employees
         {
             // Initialize the response list
             List<EmployeebyIdResponse> employeebyIdResponses = new List<EmployeebyIdResponse>();
+
+            var EmpCount = await vinxDbContext.Employees.Where(q=> q.IsActive == true).CountAsync();  
 
             // Query to get the employee data with paging
             var employees = await (
@@ -331,7 +333,7 @@ namespace VinxTech.API.Repositories.Employees
             }
 
             // Return the list of responses
-            return employeebyIdResponses;
+            return (employeebyIdResponses, EmpCount);
         }
 
         public async Task<EmployeebyIdResponse> GetbyId(long id)
@@ -364,6 +366,9 @@ namespace VinxTech.API.Repositories.Employees
                        IsActive = es.IsActive,
                        Branch = es.Branch,
                        CretedBy = es.CretedBy,
+                       Image = es.Image,
+                       Gender = es.Gender,
+                       Nationality = es.Nationality,
                    }
                ).FirstOrDefaultAsync();
 
@@ -380,7 +385,9 @@ namespace VinxTech.API.Repositories.Employees
             employeebyIdResponse.IdExpiryDate = employee.IdExpiryDate;
             employeebyIdResponse.IsActive = true;
             employeebyIdResponse.CretedBy = employee.CretedBy;
-
+            employeebyIdResponse.Image = employee.Image;
+            employeebyIdResponse.Gender = employee.Gender;
+            employeebyIdResponse.Nationality = employee.Nationality;
             employeebyIdResponse.Branch = new List<EmployeeBranch>
             {
                 new EmployeeBranch
