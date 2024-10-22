@@ -28,6 +28,10 @@ namespace VinxTech.API.Models.Domain
         public string CretedBy { get; set; }
         public DateTime CreatedAt  {  get; set; }
         public DateTime UpdatedAt {  get; set; }
-        
+
+        public string? Image { get; set; }
+        public string Gender { get; set; }
+        public string Nationality { get; set; }
+
     }
 }

@@ -1,4 +1,6 @@
-﻿namespace VinxTech.API.Models.ResponseDTOs
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace VinxTech.API.Models.ResponseDTOs
 {
     public class EmployeebyIdResponse
     {
@@ -16,6 +18,10 @@
         public Boolean IsActive { get; set; }
         public List<EmployeeBranch> Branch { get; set; }
         public int CretedBy { get; set; }
+
+        public string? Image { get; set; }
+        public string Gender { get; set; }
+        public string Nationality { get; set; }
 
         public List<EmployeeService> Services { get; set; }
     }

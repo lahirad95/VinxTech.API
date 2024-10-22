@@ -115,7 +115,7 @@ else
 //}
 
 app.UseHttpsRedirection();
-//app.UseAuthorization();
+app.UseAuthorization();
 app.UseCors("AllowAllOrigins");
 //app.UseCors("AllowSpecificOrigins");
 //app.UseHttpMethodOverride();

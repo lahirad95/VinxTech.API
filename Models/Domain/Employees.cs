@@ -1,5 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using System.Drawing;
 
 namespace VinxTech.API.Models.Domain
 {
@@ -23,5 +24,10 @@ namespace VinxTech.API.Models.Domain
         public int CretedBy { get; set; }
         public DateTime CreatedAt { get; set; }
         public DateTime UpdatedAt { get; set; }
+        public string? Image { get; set; }
+
+        public string Gender { get; set; }
+
+        public string Nationality { get; set; }
     }
 }

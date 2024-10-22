@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using System.Buffers.Text;
+using System.ComponentModel.DataAnnotations;
 
 namespace VinxTech.API.Models.DTOs
 {
@@ -33,5 +34,8 @@ namespace VinxTech.API.Models.DTOs
         public DateTime? IdExpiryDate { get; set; }
         [Required]
         public Int32 Breanch { get; set; }
+        public string? Image { get; set; }
+        public string Gender { get; set; }
+        public string Nationality { get; set; }
     }
 }

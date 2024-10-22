@@ -57,9 +57,19 @@ namespace VinxTech.API.Data
                 entity.Property(e => e.CretedBy)
                       .HasColumnType("nvarchar(200)")
                        .IsRequired();
+                entity.Property(e => e.Image)
+                      .HasColumnType("nvarchar(max)")
+                       .IsRequired();
             });
 
-            modelBuilder.Entity<EmployeeServices>()
+            modelBuilder.Entity<Employees>(entity =>
+            {
+                entity.Property(e => e.Image)
+                      .HasColumnType("nvarchar(max)")
+                      .IsRequired();
+            });
+
+                modelBuilder.Entity<EmployeeServices>()
                        .HasIndex(es => new { es.EmployeeId, es.ServiceID })
                        .IsUnique();
 

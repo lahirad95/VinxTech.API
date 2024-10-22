@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("VinxTech.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3561cb08d3853549e9a714afa30a74621a05be7f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b279ad6d52879747697393991a9362838193d775")]
 [assembly: System.Reflection.AssemblyProductAttribute("VinxTech.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("VinxTech.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

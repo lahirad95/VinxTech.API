@@ -3,9 +3,11 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using VinxTech.API.CustomActionFilters;
 using VinxTech.API.Models.Domain;
+using VinxTech.API.Models.DTOs;
 using VinxTech.API.Models.DTOs.Employees;
 using VinxTech.API.Models.DTOs.Services;
 using VinxTech.API.Models.ResponseDTOs;
+using VinxTech.API.Repositories;
 using VinxTech.API.Repositories.Employees;
 
 namespace VinxTech.API.Controllers
@@ -172,6 +174,53 @@ namespace VinxTech.API.Controllers
                     Errors = new List<string>()
                 };
                 return BadRequest(responseData);
+            }
+        }
+
+        [HttpPost("employeeActivation")]
+        [ValidateModel]
+
+        public async Task<IActionResult> employeeActivation([FromBody] EmployeeActivationRequestDTO employeeActivationRequestDTO)
+        {
+            try
+            {
+
+                bool status = await employeesRepositories.userActivation(employeeActivationRequestDTO);
+
+                if (status)
+                {
+                    var responseData = new ResponseDTO
+                    {
+                        Status = "success",
+                        Message = "Status Updated Successfully",
+                        Data = new { },
+                        Errors = new List<string>()
+                    };
+                    return Ok(responseData);
+                }
+                else
+                {
+                    var responseData = new ResponseDTO
+                    {
+                        Status = "False",
+                        Message = "Invalid UserName.",
+                        Data = new { },
+                        Errors = new List<string>()
+                    };
+                    return BadRequest(responseData);
+                }
+            }
+            catch (Exception ex)
+            {
+
+                var responseData = new ResponseDTO
+                {
+                    Status = "False",
+                    Message = "Invalid UserName.",
+                    Data = new { },
+                    Errors = new List<string>()
+                };
+                return BadRequest(responseData); throw;
             }
         }
     }

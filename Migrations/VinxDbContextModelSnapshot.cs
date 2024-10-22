@@ -105,6 +105,10 @@ namespace VinxTech.API.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("Gender")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<DateTime?>("HireDate")
                         .HasColumnType("datetime2");
 
@@ -114,10 +118,18 @@ namespace VinxTech.API.Migrations
                     b.Property<long>("IdNumber")
                         .HasColumnType("bigint");
 
+                    b.Property<string>("Image")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<bool>("IsActive")
                         .HasColumnType("bit");
 
                     b.Property<string>("MobileNumber")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Nationality")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
@@ -175,34 +187,34 @@ namespace VinxTech.API.Migrations
                         new
                         {
                             Id = 1,
-                            CreatedAt = new DateTime(2024, 10, 14, 3, 30, 42, 190, DateTimeKind.Utc).AddTicks(4409),
+                            CreatedAt = new DateTime(2024, 10, 20, 19, 13, 21, 23, DateTimeKind.Utc).AddTicks(4526),
                             Description = "Has full access to all system features and can manage all users, settings, and roles.",
                             Name = "Super Admin",
-                            UpdatedAt = new DateTime(2024, 10, 14, 3, 30, 42, 190, DateTimeKind.Utc).AddTicks(4412)
+                            UpdatedAt = new DateTime(2024, 10, 20, 19, 13, 21, 23, DateTimeKind.Utc).AddTicks(4529)
                         },
                         new
                         {
                             Id = 2,
-                            CreatedAt = new DateTime(2024, 10, 14, 3, 30, 42, 190, DateTimeKind.Utc).AddTicks(4415),
+                            CreatedAt = new DateTime(2024, 10, 20, 19, 13, 21, 23, DateTimeKind.Utc).AddTicks(4535),
                             Description = "Can manage users and settings, but has limited access to sensitive system configurations.",
                             Name = "Admin",
-                            UpdatedAt = new DateTime(2024, 10, 14, 3, 30, 42, 190, DateTimeKind.Utc).AddTicks(4416)
+                            UpdatedAt = new DateTime(2024, 10, 20, 19, 13, 21, 23, DateTimeKind.Utc).AddTicks(4536)
                         },
                         new
                         {
                             Id = 3,
-                            CreatedAt = new DateTime(2024, 10, 14, 3, 30, 42, 190, DateTimeKind.Utc).AddTicks(4418),
+                            CreatedAt = new DateTime(2024, 10, 20, 19, 13, 21, 23, DateTimeKind.Utc).AddTicks(4538),
                             Description = "Has access to basic features and functionalities necessary for daily operations.",
                             Name = "Employee",
-                            UpdatedAt = new DateTime(2024, 10, 14, 3, 30, 42, 190, DateTimeKind.Utc).AddTicks(4418)
+                            UpdatedAt = new DateTime(2024, 10, 20, 19, 13, 21, 23, DateTimeKind.Utc).AddTicks(4539)
                         },
                         new
                         {
                             Id = 4,
-                            CreatedAt = new DateTime(2024, 10, 14, 3, 30, 42, 190, DateTimeKind.Utc).AddTicks(4420),
+                            CreatedAt = new DateTime(2024, 10, 20, 19, 13, 21, 23, DateTimeKind.Utc).AddTicks(4541),
                             Description = "Responsible for handling transactions and managing customer payments.",
                             Name = "Cashier",
-                            UpdatedAt = new DateTime(2024, 10, 14, 3, 30, 42, 190, DateTimeKind.Utc).AddTicks(4420)
+                            UpdatedAt = new DateTime(2024, 10, 20, 19, 13, 21, 23, DateTimeKind.Utc).AddTicks(4542)
                         });
                 });
 
@@ -264,6 +276,10 @@ namespace VinxTech.API.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(256)");
 
+                    b.Property<string>("Gender")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<DateTime?>("HireDate")
                         .HasColumnType("datetime2");
 
@@ -272,6 +288,10 @@ namespace VinxTech.API.Migrations
 
                     b.Property<long>("IdNumber")
                         .HasColumnType("bigint");
+
+                    b.Property<string>("Image")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<bool>("IsActive")
                         .HasColumnType("bit");
@@ -282,6 +302,10 @@ namespace VinxTech.API.Migrations
                     b.Property<string>("MobileNumber")
                         .IsRequired()
                         .HasColumnType("nvarchar(15)");
+
+                    b.Property<string>("Nationality")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("PasswordHash")
                         .IsRequired()
