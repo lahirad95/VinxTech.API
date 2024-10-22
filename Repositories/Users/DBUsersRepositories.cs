@@ -1,9 +1,13 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using VinxTech.API.Data;
 using VinxTech.API.Functions;
 using VinxTech.API.Models.Domain;
 using VinxTech.API.Models.DTOs;
+using VinxTech.API.Models.DTOs.Employees;
+using VinxTech.API.Models.DTOs.Users;
+using VinxTech.API.Models.ResponseDTOs;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace VinxTech.API.Repositories
@@ -11,7 +15,6 @@ namespace VinxTech.API.Repositories
     public class DBUsersRepositories : IUserRepositories
     {
         private readonly VinxDbContext vinxDbContext;
-
         public DBUsersRepositories(VinxDbContext vinxDbContext)
         {
             this.vinxDbContext = vinxDbContext;
@@ -155,7 +158,6 @@ namespace VinxTech.API.Repositories
                 return false;
             }
         }
-
         public async Task<(Users,string Error)> register(UsersRequestDTO usersRequestDTO)
         {
             string Error = "";
@@ -196,6 +198,10 @@ namespace VinxTech.API.Repositories
                     IdNumber = usersRequestDTO.IdNumber,
                     IdExpiryDate = usersRequestDTO.IdExpiryDate,
                     Breanch = usersRequestDTO.Breanch,
+                    Image = usersRequestDTO.Image,  
+
+                    Gender = usersRequestDTO.Gender,
+                    Nationality = usersRequestDTO.Nationality,
                 };
                 await vinxDbContext.Users.AddAsync(users);
                 await vinxDbContext.SaveChangesAsync();
@@ -208,7 +214,33 @@ namespace VinxTech.API.Repositories
                 return (users, Error);
             }
         }
+        public async Task<UpdateRequestDTO> Update(string UserId,UpdateRequestDTO updateRequestDTO)
+        {
 
+            var user = await vinxDbContext.Users.FirstOrDefaultAsync(e => e.Username == UserId);
+
+            if (user != null)
+            {
+                user.firstNameEn = updateRequestDTO.firstNameEn;
+                user.lastNameEn = updateRequestDTO.lastNameEn;
+                user.firstNameAr = updateRequestDTO.firstNameAr;
+                user.lastNameAr = updateRequestDTO.lastNameAr;
+                user.Email = updateRequestDTO.Email;
+                user.MobileNumber = updateRequestDTO.MobileNumber;
+                user.DOB = updateRequestDTO.DOB;
+                user.HireDate = updateRequestDTO.HireDate;
+                user.IdExpiryDate = updateRequestDTO.IdExpiryDate;
+                user.IsActive = true;
+                user.Breanch = updateRequestDTO.Breanch;
+                user.UpdatedAt = DateTime.Now;
+                user.Image = updateRequestDTO.Image;
+                user.Gender = updateRequestDTO.Gender;
+                user.Nationality = updateRequestDTO.Nationality;
+                await vinxDbContext.SaveChangesAsync();
+            }
+
+            return updateRequestDTO;
+        }
         public async Task<bool> updatepassword(updatePasswordRequestDTO updatePasswordRequestDTO)
         {
             try
@@ -235,7 +267,6 @@ namespace VinxTech.API.Repositories
                 return false;
             }
         }
-
         public async Task<bool> userActivation(userActivationRequestDTO userActivationRequestDTO)
         {
             try

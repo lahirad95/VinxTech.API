@@ -136,3 +136,11 @@ E:\Core\VinxTech.API\obj\Release\net8.0-windows\refint\VinxTech.API.dll
 E:\Core\VinxTech.API\obj\Release\net8.0-windows\VinxTech.API.genruntimeconfig.cache
 E:\Core\VinxTech.API\obj\Release\net8.0-windows\ref\VinxTech.API.dll
 E:\Core\VinxTech.API\obj\Release\net8.0-windows\VinxTech.API.sourcelink.json
+E:\Core\VinxTech.API\bin\Release\net8.0-windows\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+E:\Core\VinxTech.API\bin\Release\net8.0-windows\Microsoft.AspNetCore.Cryptography.Internal.dll
+E:\Core\VinxTech.API\bin\Release\net8.0-windows\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+E:\Core\VinxTech.API\bin\Release\net8.0-windows\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+E:\Core\VinxTech.API\bin\Release\net8.0-windows\Microsoft.Bcl.TimeProvider.dll
+E:\Core\VinxTech.API\bin\Release\net8.0-windows\Microsoft.Extensions.Identity.Core.dll
+E:\Core\VinxTech.API\bin\Release\net8.0-windows\Microsoft.Extensions.Identity.Stores.dll
+E:\Core\VinxTech.API\bin\Release\net8.0-windows\Microsoft.Extensions.Options.dll
