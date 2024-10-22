@@ -13,7 +13,6 @@ namespace VinxTech.API.Repositories.Employees
     public class DBEmployeesRepositories : IEmployeesRepositories
     {
         private readonly VinxDbContext vinxDbContext;
-
         public DBEmployeesRepositories(VinxDbContext vinxDbContext)
         {
             this.vinxDbContext = vinxDbContext;
@@ -76,7 +75,6 @@ namespace VinxTech.API.Repositories.Employees
             }
             return employee;
         }
-
         public async Task<Int64> Delete(Int64 id)
         {
             var employee = await vinxDbContext.Employees.FirstOrDefaultAsync(e => e.IdNumber == id);
@@ -100,7 +98,6 @@ namespace VinxTech.API.Repositories.Employees
 
             return id;
         }
-
         public async Task<EditEmployeeResponseDTO> Edit(long id, EditEmployeeRequestDTO editEmployeeRequestDTO)
         {
             EditEmployeeResponseDTO editEmployeeResponseDTO = new EditEmployeeResponseDTO();
@@ -216,7 +213,6 @@ namespace VinxTech.API.Repositories.Employees
             }
             return editEmployeeResponseDTO;
         }
-
         public async Task<(List<EmployeebyIdResponse>, int TotalCount)> GetAll(int PageNumber, int PageSize)
         {
             // Initialize the response list
@@ -335,7 +331,6 @@ namespace VinxTech.API.Repositories.Employees
             // Return the list of responses
             return (employeebyIdResponses, EmpCount);
         }
-
         public async Task<EmployeebyIdResponse> GetbyId(long id)
         {
 
@@ -434,7 +429,6 @@ namespace VinxTech.API.Repositories.Employees
             return employeebyIdResponse;
 
         }
-
         public async Task<bool> userActivation(EmployeeActivationRequestDTO employeeActivationRequestDTO)
         {
             try
