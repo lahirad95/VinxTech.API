@@ -3,6 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Conventions;
 using VinxTech.API.Data;
 using VinxTech.API.Models.Domain;
+using VinxTech.API.Models.DTOs;
 using VinxTech.API.Models.DTOs.Employees;
 using VinxTech.API.Models.DTOs.Services;
 using VinxTech.API.Models.ResponseDTOs;
@@ -44,6 +45,9 @@ namespace VinxTech.API.Repositories.Employees
                 employee.CretedBy = addEmployeeRequestDTO.CretedBy;
                 employee.UpdatedAt = DateTime.Now;
                 employee.CreatedAt = DateTime.Now;
+                employee.Image = addEmployeeRequestDTO.Image;   
+                employee.Gender = addEmployeeRequestDTO.Gender;
+                employee.Nationality = addEmployeeRequestDTO.Nationality;
                 await vinxDbContext.Employees.AddAsync(employee);
                 await vinxDbContext.SaveChangesAsync();
             }
@@ -114,10 +118,13 @@ namespace VinxTech.API.Repositories.Employees
                 employee.DOB = editEmployeeRequestDTO.DOB;
                 employee.HireDate = editEmployeeRequestDTO.HireDate;
                 employee.IdExpiryDate = editEmployeeRequestDTO.IdExpiryDate;
-                employee.IsActive = true;
+                //employee.IsActive = true;
                 employee.Branch = editEmployeeRequestDTO.Branch;
                 employee.CretedBy = editEmployeeRequestDTO.CretedBy;
                 employee.UpdatedAt = DateTime.Now;
+                employee.Image = editEmployeeRequestDTO.Image;
+                employee.Gender = editEmployeeRequestDTO.Gender;
+                employee.Nationality = editEmployeeRequestDTO.Nationality;
                 await vinxDbContext.SaveChangesAsync();
             }
 
@@ -210,7 +217,7 @@ namespace VinxTech.API.Repositories.Employees
             return editEmployeeResponseDTO;
         }
 
-        public async Task<List<EmployeebyIdResponse>> GetAll(int PageNumber, int PageSize)
+        public async Task<(List<EmployeebyIdResponse>, int TotalCount)> GetAll(int PageNumber, int PageSize)
         {
             // Initialize the response list
             List<EmployeebyIdResponse> employeebyIdResponses = new List<EmployeebyIdResponse>();
@@ -242,6 +249,9 @@ namespace VinxTech.API.Repositories.Employees
                     IsActive = es.IsActive,
                     Branch = es.Branch,
                     CretedBy = es.CretedBy,
+                    Image = es.Image,
+                    Gender = es.Gender,
+                    Nationality = es.Nationality,
                 }
             )
             .Skip((PageNumber - 1) * PageSize) // Skip the previous pages' data
@@ -268,7 +278,9 @@ namespace VinxTech.API.Repositories.Employees
                         IdExpiryDate = emp.IdExpiryDate,
                         IsActive = emp.IsActive,
                         CretedBy = emp.CretedBy,
-
+                        Image = emp.Image,
+                        Gender = emp.Gender,
+                        Nationality = emp.Nationality,
                         // Assign branch information
                         Branch = new List<EmployeeBranch>
                 {
@@ -414,6 +426,30 @@ namespace VinxTech.API.Repositories.Employees
 
             return employeebyIdResponse;
 
+        }
+
+        public async Task<bool> userActivation(EmployeeActivationRequestDTO employeeActivationRequestDTO)
+        {
+            try
+            {
+                var userExists = await vinxDbContext.Employees.FirstOrDefaultAsync(u => u.IdNumber == employeeActivationRequestDTO.IdNumber);
+
+                if (userExists != null)
+                {
+                    userExists.IsActive = employeeActivationRequestDTO.Status;
+                    await vinxDbContext.SaveChangesAsync();
+                    return true;
+                }
+                else
+                {
+                    return false;
+                }
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
         }
     }
 }
