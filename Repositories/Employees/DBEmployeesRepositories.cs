@@ -225,7 +225,7 @@ namespace VinxTech.API.Repositories.Employees
                 from es in vinxDbContext.Employees
                 join s in vinxDbContext.Branches
                 on es.Branch equals s.Id
-                where es.IsActive == true
+                //where es.IsActive == true
                 select new
                 {
                     CreateDate = es.CreatedAt,
@@ -340,7 +340,7 @@ namespace VinxTech.API.Repositories.Employees
                    from es in vinxDbContext.Employees
                    join s in vinxDbContext.Branches
                    on es.Branch equals s.Id
-                   where es.IdNumber == id && es.IsActive == true
+                   where es.IdNumber == id 
                    select new
                    {
                        NameEn = s.NameEn,
