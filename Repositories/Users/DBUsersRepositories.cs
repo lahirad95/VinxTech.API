@@ -165,7 +165,7 @@ namespace VinxTech.API.Repositories
 
             try
             {
-                List<Roles> roles = new List<Roles>();
+                List<Models.Domain.Roles> roles = new List<Models.Domain.Roles>();
                 roles = await vinxDbContext.Roles.ToListAsync();
 
                 var usernameExists = await vinxDbContext.Users.AnyAsync(u => u.Username == usersRequestDTO.Username);

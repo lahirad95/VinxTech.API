@@ -223,5 +223,7 @@ namespace VinxTech.API.Controllers
                 return BadRequest(responseData); throw;
             }
         }
+
+
     }
 }
