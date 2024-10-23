@@ -4,6 +4,7 @@ using VinxTech.API.Repositories;
 using VinxTech.API;
 using VinxTech.API.Repositories.Services;
 using VinxTech.API.Repositories.Employees;
+using VinxTech.API.Repositories.Roles;
 
 
 var builder = WebApplication.CreateBuilder(args);
@@ -21,6 +22,7 @@ builder.Services.AddScoped<IUserRepositories, DBUsersRepositories>();
 builder.Services.AddScoped<IBranchRepositories,DBBranchRepositories>();
 builder.Services.AddScoped<IServiceRepositories,DBServiceRepositories>();
 builder.Services.AddScoped<IEmployeesRepositories, DBEmployeesRepositories>();
+builder.Services.AddScoped<IRolesRepositories, DBRolesRepositories>();
 //builder.Services.AddCors(options =>
 //{
 //    options.AddPolicy("AllowVercelOrigin", policy =>

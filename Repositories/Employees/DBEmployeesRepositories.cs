@@ -218,7 +218,7 @@ namespace VinxTech.API.Repositories.Employees
             // Initialize the response list
             List<EmployeebyIdResponse> employeebyIdResponses = new List<EmployeebyIdResponse>();
 
-            var EmpCount = await vinxDbContext.Employees.Where(q=> q.IsActive == true).CountAsync();  
+            var EmpCount = await vinxDbContext.Employees.CountAsync();  
 
             // Query to get the employee data with paging
             var employees = await (

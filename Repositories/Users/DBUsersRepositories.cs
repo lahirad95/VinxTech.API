@@ -48,7 +48,7 @@ namespace VinxTech.API.Repositories
         {
             List<UserGetAllResponseDTO> userGetAllResponseDTOs = new List<UserGetAllResponseDTO>();
 
-            var UserCount = await vinxDbContext.Users.Where(q => q.IsActive == true).CountAsync();
+            var UserCount = await vinxDbContext.Users.CountAsync();
 
             // Query to get the employee data with paging
             var users = await(
@@ -57,7 +57,7 @@ namespace VinxTech.API.Repositories
                 on es.Breanch  equals s.Id
                 join r in vinxDbContext.Roles 
                 on es.Role equals r.Id
-                where es.IsActive == true
+                //where es.IsActive == true
                 select new
                 {
 
