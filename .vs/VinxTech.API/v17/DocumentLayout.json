@@ -3,68 +3,92 @@
   "WorkspaceRootPath": "E:\\Core\\VinxTech.API\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{9A419BF4-9CA9-46E5-A596-1909BBA5824A}|VinxTech.API.csproj|e:\\core\\vinxtech.api\\vinxtech.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{9A419BF4-9CA9-46E5-A596-1909BBA5824A}|VinxTech.API.csproj|solutionrelative:vinxtech.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9A419BF4-9CA9-46E5-A596-1909BBA5824A}|VinxTech.API.csproj|e:\\core\\vinxtech.api\\repositories\\employees\\dbemployeesrepositories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9A419BF4-9CA9-46E5-A596-1909BBA5824A}|VinxTech.API.csproj|solutionrelative:repositories\\employees\\dbemployeesrepositories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9A419BF4-9CA9-46E5-A596-1909BBA5824A}|VinxTech.API.csproj|e:\\core\\vinxtech.api\\migrations\\20241020191321_addgendernationality.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9A419BF4-9CA9-46E5-A596-1909BBA5824A}|VinxTech.API.csproj|solutionrelative:migrations\\20241020191321_addgendernationality.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9A419BF4-9CA9-46E5-A596-1909BBA5824A}|VinxTech.API.csproj|e:\\core\\vinxtech.api\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9A419BF4-9CA9-46E5-A596-1909BBA5824A}|VinxTech.API.csproj|solutionrelative:controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9A419BF4-9CA9-46E5-A596-1909BBA5824A}|VinxTech.API.csproj|e:\\core\\vinxtech.api\\repositories\\users\\dbusersrepositories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9A419BF4-9CA9-46E5-A596-1909BBA5824A}|VinxTech.API.csproj|solutionrelative:repositories\\users\\dbusersrepositories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9A419BF4-9CA9-46E5-A596-1909BBA5824A}|VinxTech.API.csproj|e:\\core\\vinxtech.api\\repositories\\users\\iuserrepositories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9A419BF4-9CA9-46E5-A596-1909BBA5824A}|VinxTech.API.csproj|solutionrelative:repositories\\users\\iuserrepositories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9A419BF4-9CA9-46E5-A596-1909BBA5824A}|VinxTech.API.csproj|e:\\core\\vinxtech.api\\appsettings.uat.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{9A419BF4-9CA9-46E5-A596-1909BBA5824A}|VinxTech.API.csproj|solutionrelative:appsettings.uat.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9A419BF4-9CA9-46E5-A596-1909BBA5824A}|VinxTech.API.csproj|e:\\core\\vinxtech.api\\models\\dtos\\employees\\employeeactivationrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9A419BF4-9CA9-46E5-A596-1909BBA5824A}|VinxTech.API.csproj|solutionrelative:models\\dtos\\employees\\employeeactivationrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9A419BF4-9CA9-46E5-A596-1909BBA5824A}|VinxTech.API.csproj|e:\\core\\vinxtech.api\\repositories\\employees\\iemployeesrepositories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9A419BF4-9CA9-46E5-A596-1909BBA5824A}|VinxTech.API.csproj|solutionrelative:repositories\\employees\\iemployeesrepositories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9A419BF4-9CA9-46E5-A596-1909BBA5824A}|VinxTech.API.csproj|e:\\core\\vinxtech.api\\models\\domain\\employees.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9A419BF4-9CA9-46E5-A596-1909BBA5824A}|VinxTech.API.csproj|solutionrelative:models\\domain\\employees.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9A419BF4-9CA9-46E5-A596-1909BBA5824A}|VinxTech.API.csproj|e:\\core\\vinxtech.api\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A419BF4-9CA9-46E5-A596-1909BBA5824A}|VinxTech.API.csproj|solutionrelative:controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9A419BF4-9CA9-46E5-A596-1909BBA5824A}|VinxTech.API.csproj|e:\\core\\vinxtech.api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9A419BF4-9CA9-46E5-A596-1909BBA5824A}|VinxTech.API.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9A419BF4-9CA9-46E5-A596-1909BBA5824A}|VinxTech.API.csproj|e:\\core\\vinxtech.api\\models\\dtos\\employees\\editemployeerequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9A419BF4-9CA9-46E5-A596-1909BBA5824A}|VinxTech.API.csproj|solutionrelative:models\\dtos\\employees\\editemployeerequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9A419BF4-9CA9-46E5-A596-1909BBA5824A}|VinxTech.API.csproj|e:\\core\\vinxtech.api\\appsettings.uat.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9A419BF4-9CA9-46E5-A596-1909BBA5824A}|VinxTech.API.csproj|solutionrelative:appsettings.uat.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A419BF4-9CA9-46E5-A596-1909BBA5824A}|VinxTech.API.csproj|e:\\core\\vinxtech.api\\appsettings.production.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9A419BF4-9CA9-46E5-A596-1909BBA5824A}|VinxTech.API.csproj|solutionrelative:appsettings.production.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A419BF4-9CA9-46E5-A596-1909BBA5824A}|VinxTech.API.csproj|e:\\core\\vinxtech.api\\controllers\\rolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A419BF4-9CA9-46E5-A596-1909BBA5824A}|VinxTech.API.csproj|solutionrelative:controllers\\rolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A419BF4-9CA9-46E5-A596-1909BBA5824A}|VinxTech.API.csproj|e:\\core\\vinxtech.api\\controllers\\branchcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A419BF4-9CA9-46E5-A596-1909BBA5824A}|VinxTech.API.csproj|solutionrelative:controllers\\branchcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9A419BF4-9CA9-46E5-A596-1909BBA5824A}|VinxTech.API.csproj|e:\\core\\vinxtech.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9A419BF4-9CA9-46E5-A596-1909BBA5824A}|VinxTech.API.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{9A419BF4-9CA9-46E5-A596-1909BBA5824A}|VinxTech.API.csproj|e:\\core\\vinxtech.api\\repositories\\roles\\irolesrepositories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A419BF4-9CA9-46E5-A596-1909BBA5824A}|VinxTech.API.csproj|solutionrelative:repositories\\roles\\irolesrepositories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A419BF4-9CA9-46E5-A596-1909BBA5824A}|VinxTech.API.csproj|e:\\core\\vinxtech.api\\repositories\\roles\\dbrolesrepositories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A419BF4-9CA9-46E5-A596-1909BBA5824A}|VinxTech.API.csproj|solutionrelative:repositories\\roles\\dbrolesrepositories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A419BF4-9CA9-46E5-A596-1909BBA5824A}|VinxTech.API.csproj|e:\\core\\vinxtech.api\\repositories\\branches\\dbbranchrepositories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A419BF4-9CA9-46E5-A596-1909BBA5824A}|VinxTech.API.csproj|solutionrelative:repositories\\branches\\dbbranchrepositories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A419BF4-9CA9-46E5-A596-1909BBA5824A}|VinxTech.API.csproj|e:\\core\\vinxtech.api\\repositories\\branches\\ibranchrepositories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A419BF4-9CA9-46E5-A596-1909BBA5824A}|VinxTech.API.csproj|solutionrelative:repositories\\branches\\ibranchrepositories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A419BF4-9CA9-46E5-A596-1909BBA5824A}|VinxTech.API.csproj|e:\\core\\vinxtech.api\\migrations\\20241020191321_addgendernationality.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A419BF4-9CA9-46E5-A596-1909BBA5824A}|VinxTech.API.csproj|solutionrelative:migrations\\20241020191321_addgendernationality.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A419BF4-9CA9-46E5-A596-1909BBA5824A}|VinxTech.API.csproj|e:\\core\\vinxtech.api\\repositories\\users\\iuserrepositories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A419BF4-9CA9-46E5-A596-1909BBA5824A}|VinxTech.API.csproj|solutionrelative:repositories\\users\\iuserrepositories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A419BF4-9CA9-46E5-A596-1909BBA5824A}|VinxTech.API.csproj|e:\\core\\vinxtech.api\\models\\dtos\\employees\\employeeactivationrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A419BF4-9CA9-46E5-A596-1909BBA5824A}|VinxTech.API.csproj|solutionrelative:models\\dtos\\employees\\employeeactivationrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A419BF4-9CA9-46E5-A596-1909BBA5824A}|VinxTech.API.csproj|e:\\core\\vinxtech.api\\models\\domain\\employees.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A419BF4-9CA9-46E5-A596-1909BBA5824A}|VinxTech.API.csproj|solutionrelative:models\\domain\\employees.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A419BF4-9CA9-46E5-A596-1909BBA5824A}|VinxTech.API.csproj|e:\\core\\vinxtech.api\\models\\dtos\\employees\\editemployeerequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A419BF4-9CA9-46E5-A596-1909BBA5824A}|VinxTech.API.csproj|solutionrelative:models\\dtos\\employees\\editemployeerequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9A419BF4-9CA9-46E5-A596-1909BBA5824A}|VinxTech.API.csproj|e:\\core\\vinxtech.api\\models\\responsedtos\\usergetallresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9A419BF4-9CA9-46E5-A596-1909BBA5824A}|VinxTech.API.csproj|solutionrelative:models\\responsedtos\\usergetallresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9A419BF4-9CA9-46E5-A596-1909BBA5824A}|VinxTech.API.csproj|e:\\core\\vinxtech.api\\vinxtech.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{9A419BF4-9CA9-46E5-A596-1909BBA5824A}|VinxTech.API.csproj|solutionrelative:vinxtech.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9A419BF4-9CA9-46E5-A596-1909BBA5824A}|VinxTech.API.csproj|e:\\core\\vinxtech.api\\data\\vinxdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9A419BF4-9CA9-46E5-A596-1909BBA5824A}|VinxTech.API.csproj|solutionrelative:data\\vinxdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9A419BF4-9CA9-46E5-A596-1909BBA5824A}|VinxTech.API.csproj|e:\\core\\vinxtech.api\\appsettings.production.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{9A419BF4-9CA9-46E5-A596-1909BBA5824A}|VinxTech.API.csproj|solutionrelative:appsettings.production.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9A419BF4-9CA9-46E5-A596-1909BBA5824A}|VinxTech.API.csproj|e:\\core\\vinxtech.api\\models\\dtos\\users\\updaterequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -107,16 +131,8 @@
       "RelativeMoniker": "D:0:0:{9A419BF4-9CA9-46E5-A596-1909BBA5824A}|VinxTech.API.csproj|solutionrelative:controllers\\servicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9A419BF4-9CA9-46E5-A596-1909BBA5824A}|VinxTech.API.csproj|e:\\core\\vinxtech.api\\controllers\\branchcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9A419BF4-9CA9-46E5-A596-1909BBA5824A}|VinxTech.API.csproj|solutionrelative:controllers\\branchcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9A419BF4-9CA9-46E5-A596-1909BBA5824A}|VinxTech.API.csproj|e:\\core\\vinxtech.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{9A419BF4-9CA9-46E5-A596-1909BBA5824A}|VinxTech.API.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9A419BF4-9CA9-46E5-A596-1909BBA5824A}|VinxTech.API.csproj|e:\\core\\vinxtech.api\\repositories\\branches\\dbbranchrepositories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9A419BF4-9CA9-46E5-A596-1909BBA5824A}|VinxTech.API.csproj|solutionrelative:repositories\\branches\\dbbranchrepositories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9A419BF4-9CA9-46E5-A596-1909BBA5824A}|VinxTech.API.csproj|e:\\core\\vinxtech.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -226,7 +242,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 1289,
-          "SelectedChildIndex": 17,
+          "SelectedChildIndex": 18,
           "Children": [
             {
               "$type": "Bookmark",
@@ -289,109 +305,92 @@
               "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "EmployeeController.cs",
-              "DocumentMoniker": "E:\\Core\\VinxTech.API\\Controllers\\EmployeeController.cs",
-              "RelativeDocumentMoniker": "Controllers\\EmployeeController.cs",
-              "ToolTip": "E:\\Core\\VinxTech.API\\Controllers\\EmployeeController.cs",
-              "RelativeToolTip": "Controllers\\EmployeeController.cs",
-              "ViewState": "AQIAAHcAAAAAAAAAAAAIwLUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-09T03:59:56.75Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "DBEmployeesRepositories.cs",
-              "DocumentMoniker": "E:\\Core\\VinxTech.API\\Repositories\\Employees\\DBEmployeesRepositories.cs",
-              "RelativeDocumentMoniker": "Repositories\\Employees\\DBEmployeesRepositories.cs",
-              "ToolTip": "E:\\Core\\VinxTech.API\\Repositories\\Employees\\DBEmployeesRepositories.cs",
-              "RelativeToolTip": "Repositories\\Employees\\DBEmployeesRepositories.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAAAA8AAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-09T04:01:48.191Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "20241020191321_AddGenderNationality.cs",
-              "DocumentMoniker": "E:\\Core\\VinxTech.API\\Migrations\\20241020191321_AddGenderNationality.cs",
-              "RelativeDocumentMoniker": "Migrations\\20241020191321_AddGenderNationality.cs",
-              "ToolTip": "E:\\Core\\VinxTech.API\\Migrations\\20241020191321_AddGenderNationality.cs",
-              "RelativeToolTip": "Migrations\\20241020191321_AddGenderNationality.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-20T19:13:21.826Z",
-              "EditorCaption": ""
-            },
-            {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "DBUsersRepositories.cs",
-              "DocumentMoniker": "E:\\Core\\VinxTech.API\\Repositories\\Users\\DBUsersRepositories.cs",
-              "RelativeDocumentMoniker": "Repositories\\Users\\DBUsersRepositories.cs",
-              "ToolTip": "E:\\Core\\VinxTech.API\\Repositories\\Users\\DBUsersRepositories.cs",
-              "RelativeToolTip": "Repositories\\Users\\DBUsersRepositories.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAswCYBAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T03:25:38.648Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "IUserRepositories.cs",
-              "DocumentMoniker": "E:\\Core\\VinxTech.API\\Repositories\\Users\\IUserRepositories.cs",
-              "RelativeDocumentMoniker": "Repositories\\Users\\IUserRepositories.cs",
-              "ToolTip": "E:\\Core\\VinxTech.API\\Repositories\\Users\\IUserRepositories.cs",
-              "RelativeToolTip": "Repositories\\Users\\IUserRepositories.cs",
-              "ViewState": "AQIAAAQAAAAAAAAAAAAgwBAAAAAhAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-15T17:54:56.133Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
               "Title": "IEmployeesRepositories.cs",
               "DocumentMoniker": "E:\\Core\\VinxTech.API\\Repositories\\Employees\\IEmployeesRepositories.cs",
               "RelativeDocumentMoniker": "Repositories\\Employees\\IEmployeesRepositories.cs",
               "ToolTip": "E:\\Core\\VinxTech.API\\Repositories\\Employees\\IEmployeesRepositories.cs",
               "RelativeToolTip": "Repositories\\Employees\\IEmployeesRepositories.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAABbAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAABCAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-09T04:20:32.918Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "EmployeeActivationRequestDTO.cs",
-              "DocumentMoniker": "E:\\Core\\VinxTech.API\\Models\\DTOs\\Employees\\EmployeeActivationRequestDTO.cs",
-              "RelativeDocumentMoniker": "Models\\DTOs\\Employees\\EmployeeActivationRequestDTO.cs",
-              "ToolTip": "E:\\Core\\VinxTech.API\\Models\\DTOs\\Employees\\EmployeeActivationRequestDTO.cs",
-              "RelativeToolTip": "Models\\DTOs\\Employees\\EmployeeActivationRequestDTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAkAAAAhAAAA",
+              "DocumentIndex": 1,
+              "Title": "DBEmployeesRepositories.cs",
+              "DocumentMoniker": "E:\\Core\\VinxTech.API\\Repositories\\Employees\\DBEmployeesRepositories.cs",
+              "RelativeDocumentMoniker": "Repositories\\Employees\\DBEmployeesRepositories.cs",
+              "ToolTip": "E:\\Core\\VinxTech.API\\Repositories\\Employees\\DBEmployeesRepositories.cs",
+              "RelativeToolTip": "Repositories\\Employees\\DBEmployeesRepositories.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAE8BAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-22T18:43:05.992Z",
+              "WhenOpened": "2024-10-09T04:01:48.191Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DBUsersRepositories.cs",
+              "DocumentMoniker": "E:\\Core\\VinxTech.API\\Repositories\\Users\\DBUsersRepositories.cs",
+              "RelativeDocumentMoniker": "Repositories\\Users\\DBUsersRepositories.cs",
+              "ToolTip": "E:\\Core\\VinxTech.API\\Repositories\\Users\\DBUsersRepositories.cs",
+              "RelativeToolTip": "Repositories\\Users\\DBUsersRepositories.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAMwC4AAABtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T03:25:38.648Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "VinxTech.API.csproj",
+              "DocumentMoniker": "E:\\Core\\VinxTech.API\\VinxTech.API.csproj",
+              "RelativeDocumentMoniker": "VinxTech.API.csproj",
+              "ToolTip": "E:\\Core\\VinxTech.API\\VinxTech.API.csproj",
+              "RelativeToolTip": "VinxTech.API.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-20T07:26:10.683Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EmployeeController.cs",
+              "DocumentMoniker": "E:\\Core\\VinxTech.API\\Controllers\\EmployeeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\EmployeeController.cs",
+              "ToolTip": "E:\\Core\\VinxTech.API\\Controllers\\EmployeeController.cs",
+              "RelativeToolTip": "Controllers\\EmployeeController.cs",
+              "ViewState": "AQIAADkAAAAAAAAAAAAYwJkAAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T03:59:56.75Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "E:\\Core\\VinxTech.API\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
+              "ToolTip": "E:\\Core\\VinxTech.API\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Controllers\\UserController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAMoAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-08T04:19:08.579Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "appsettings.UAT.json",
               "DocumentMoniker": "E:\\Core\\VinxTech.API\\appsettings.UAT.json",
               "RelativeDocumentMoniker": "appsettings.UAT.json",
               "ToolTip": "E:\\Core\\VinxTech.API\\appsettings.UAT.json",
               "RelativeToolTip": "appsettings.UAT.json",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA8AAAAoAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2024-09-28T18:27:19.082Z",
               "EditorCaption": ""
@@ -399,19 +398,146 @@
             {
               "$type": "Document",
               "DocumentIndex": 11,
+              "Title": "IRolesRepositories.cs",
+              "DocumentMoniker": "E:\\Core\\VinxTech.API\\Repositories\\Roles\\IRolesRepositories.cs",
+              "RelativeDocumentMoniker": "Repositories\\Roles\\IRolesRepositories.cs",
+              "ToolTip": "E:\\Core\\VinxTech.API\\Repositories\\Roles\\IRolesRepositories.cs",
+              "RelativeToolTip": "Repositories\\Roles\\IRolesRepositories.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T03:47:11.009Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "BranchController.cs",
+              "DocumentMoniker": "E:\\Core\\VinxTech.API\\Controllers\\BranchController.cs",
+              "RelativeDocumentMoniker": "Controllers\\BranchController.cs",
+              "ToolTip": "E:\\Core\\VinxTech.API\\Controllers\\BranchController.cs",
+              "RelativeToolTip": "Controllers\\BranchController.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAADMAAABVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-06T17:49:50.204Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.Production.json",
+              "DocumentMoniker": "E:\\Core\\VinxTech.API\\appsettings.Production.json",
+              "RelativeDocumentMoniker": "appsettings.Production.json",
+              "ToolTip": "E:\\Core\\VinxTech.API\\appsettings.Production.json",
+              "RelativeToolTip": "appsettings.Production.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-26T03:52:54.593Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "RoleController.cs",
+              "DocumentMoniker": "E:\\Core\\VinxTech.API\\Controllers\\RoleController.cs",
+              "RelativeDocumentMoniker": "Controllers\\RoleController.cs",
+              "ToolTip": "E:\\Core\\VinxTech.API\\Controllers\\RoleController.cs",
+              "RelativeToolTip": "Controllers\\RoleController.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAwBIAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T03:45:21.786Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "Program.cs",
               "DocumentMoniker": "E:\\Core\\VinxTech.API\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "E:\\Core\\VinxTech.API\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAABcAAAAlAAAA",
+              "ViewState": "AQIAAF4AAAAAAAAAAAAtwH4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-18T04:02:59.49Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 13,
+              "Title": "DBBranchRepositories.cs",
+              "DocumentMoniker": "E:\\Core\\VinxTech.API\\Repositories\\Branches\\DBBranchRepositories.cs",
+              "RelativeDocumentMoniker": "Repositories\\Branches\\DBBranchRepositories.cs",
+              "ToolTip": "E:\\Core\\VinxTech.API\\Repositories\\Branches\\DBBranchRepositories.cs",
+              "RelativeToolTip": "Repositories\\Branches\\DBBranchRepositories.cs",
+              "ViewState": "AQIAACgAAAAAAAAAAAA5wDYAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T17:54:46.648Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "DBRolesRepositories.cs",
+              "DocumentMoniker": "E:\\Core\\VinxTech.API\\Repositories\\Roles\\DBRolesRepositories.cs",
+              "RelativeDocumentMoniker": "Repositories\\Roles\\DBRolesRepositories.cs",
+              "ToolTip": "E:\\Core\\VinxTech.API\\Repositories\\Roles\\DBRolesRepositories.cs",
+              "RelativeToolTip": "Repositories\\Roles\\DBRolesRepositories.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T03:47:41.28Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IBranchRepositories.cs",
+              "DocumentMoniker": "E:\\Core\\VinxTech.API\\Repositories\\Branches\\IBranchRepositories.cs",
+              "RelativeDocumentMoniker": "Repositories\\Branches\\IBranchRepositories.cs",
+              "ToolTip": "E:\\Core\\VinxTech.API\\Repositories\\Branches\\IBranchRepositories.cs",
+              "RelativeToolTip": "Repositories\\Branches\\IBranchRepositories.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T03:47:47.438Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "20241020191321_AddGenderNationality.cs",
+              "DocumentMoniker": "E:\\Core\\VinxTech.API\\Migrations\\20241020191321_AddGenderNationality.cs",
+              "RelativeDocumentMoniker": "Migrations\\20241020191321_AddGenderNationality.cs",
+              "ToolTip": "E:\\Core\\VinxTech.API\\Migrations\\20241020191321_AddGenderNationality.cs",
+              "RelativeToolTip": "Migrations\\20241020191321_AddGenderNationality.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-20T19:13:21.826Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "IUserRepositories.cs",
+              "DocumentMoniker": "E:\\Core\\VinxTech.API\\Repositories\\Users\\IUserRepositories.cs",
+              "RelativeDocumentMoniker": "Repositories\\Users\\IUserRepositories.cs",
+              "ToolTip": "E:\\Core\\VinxTech.API\\Repositories\\Users\\IUserRepositories.cs",
+              "RelativeToolTip": "Repositories\\Users\\IUserRepositories.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAgwBAAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T17:54:56.133Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "EmployeeActivationRequestDTO.cs",
+              "DocumentMoniker": "E:\\Core\\VinxTech.API\\Models\\DTOs\\Employees\\EmployeeActivationRequestDTO.cs",
+              "RelativeDocumentMoniker": "Models\\DTOs\\Employees\\EmployeeActivationRequestDTO.cs",
+              "ToolTip": "E:\\Core\\VinxTech.API\\Models\\DTOs\\Employees\\EmployeeActivationRequestDTO.cs",
+              "RelativeToolTip": "Models\\DTOs\\Employees\\EmployeeActivationRequestDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAkAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T18:43:05.992Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
               "Title": "Employees.cs",
               "DocumentMoniker": "E:\\Core\\VinxTech.API\\Models\\Domain\\Employees.cs",
               "RelativeDocumentMoniker": "Models\\Domain\\Employees.cs",
@@ -424,7 +550,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 19,
               "Title": "EditEmployeeRequestDTO.cs",
               "DocumentMoniker": "E:\\Core\\VinxTech.API\\Models\\DTOs\\Employees\\EditEmployeeRequestDTO.cs",
               "RelativeDocumentMoniker": "Models\\DTOs\\Employees\\EditEmployeeRequestDTO.cs",
@@ -437,32 +563,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "E:\\Core\\VinxTech.API\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
-              "ToolTip": "E:\\Core\\VinxTech.API\\Controllers\\UserController.cs",
-              "RelativeToolTip": "Controllers\\UserController.cs",
-              "ViewState": "AQIAAB4AAAAAAAAAAAA1wMoAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-08T04:19:08.579Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "VinxTech.API.csproj",
-              "DocumentMoniker": "E:\\Core\\VinxTech.API\\VinxTech.API.csproj",
-              "RelativeDocumentMoniker": "VinxTech.API.csproj",
-              "ToolTip": "E:\\Core\\VinxTech.API\\VinxTech.API.csproj",
-              "RelativeToolTip": "VinxTech.API.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-09-20T07:26:10.683Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 20,
               "Title": "UserGetAllResponseDTO.cs",
               "DocumentMoniker": "E:\\Core\\VinxTech.API\\Models\\ResponseDTOs\\UserGetAllResponseDTO.cs",
               "RelativeDocumentMoniker": "Models\\ResponseDTOs\\UserGetAllResponseDTO.cs",
@@ -475,7 +576,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 21,
               "Title": "VinxDbContext.cs",
               "DocumentMoniker": "E:\\Core\\VinxTech.API\\Data\\VinxDbContext.cs",
               "RelativeDocumentMoniker": "Data\\VinxDbContext.cs",
@@ -483,24 +584,11 @@
               "RelativeToolTip": "Data\\VinxDbContext.cs",
               "ViewState": "AQIAABUAAAAAAAAAAAAYwEYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-09T18:42:54.977Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-09T18:42:54.977Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "appsettings.Production.json",
-              "DocumentMoniker": "E:\\Core\\VinxTech.API\\appsettings.Production.json",
-              "RelativeDocumentMoniker": "appsettings.Production.json",
-              "ToolTip": "E:\\Core\\VinxTech.API\\appsettings.Production.json",
-              "RelativeToolTip": "appsettings.Production.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-09-26T03:52:54.593Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 24,
               "Title": "EmployeebyIdResponse.cs",
               "DocumentMoniker": "E:\\Core\\VinxTech.API\\Models\\ResponseDTOs\\EmployeebyIdResponse.cs",
               "RelativeDocumentMoniker": "Models\\ResponseDTOs\\EmployeebyIdResponse.cs",
@@ -513,7 +601,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 23,
               "Title": "UsersRequestDTO.cs",
               "DocumentMoniker": "E:\\Core\\VinxTech.API\\Models\\DTOs\\Users\\UsersRequestDTO.cs",
               "RelativeDocumentMoniker": "Models\\DTOs\\Users\\UsersRequestDTO.cs",
@@ -526,7 +614,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 22,
               "Title": "UpdateRequestDTO.cs",
               "DocumentMoniker": "E:\\Core\\VinxTech.API\\Models\\DTOs\\Users\\UpdateRequestDTO.cs",
               "RelativeDocumentMoniker": "Models\\DTOs\\Users\\UpdateRequestDTO.cs",
@@ -539,7 +627,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 25,
               "Title": "EditEmployeeResponseDTO.cs",
               "DocumentMoniker": "E:\\Core\\VinxTech.API\\Models\\ResponseDTOs\\EditEmployeeResponseDTO.cs",
               "RelativeDocumentMoniker": "Models\\ResponseDTOs\\EditEmployeeResponseDTO.cs",
@@ -552,7 +640,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 26,
               "Title": "AddEmployeeRequestDTO.cs",
               "DocumentMoniker": "E:\\Core\\VinxTech.API\\Models\\DTOs\\Employees\\AddEmployeeRequestDTO.cs",
               "RelativeDocumentMoniker": "Models\\DTOs\\Employees\\AddEmployeeRequestDTO.cs",
@@ -565,7 +653,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 28,
               "Title": "EmployeeServices.cs",
               "DocumentMoniker": "E:\\Core\\VinxTech.API\\Models\\Domain\\EmployeeServices.cs",
               "RelativeDocumentMoniker": "Models\\Domain\\EmployeeServices.cs",
@@ -577,7 +665,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 27,
               "Title": "Users.cs",
               "DocumentMoniker": "E:\\Core\\VinxTech.API\\Models\\Domain\\Users.cs",
               "RelativeDocumentMoniker": "Models\\Domain\\Users.cs",
@@ -590,7 +678,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 29,
               "Title": "Roles.cs",
               "DocumentMoniker": "E:\\Core\\VinxTech.API\\Models\\Domain\\Roles.cs",
               "RelativeDocumentMoniker": "Models\\Domain\\Roles.cs",
@@ -603,7 +691,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 30,
               "Title": "Branches.cs",
               "DocumentMoniker": "E:\\Core\\VinxTech.API\\Models\\Domain\\Branches.cs",
               "RelativeDocumentMoniker": "Models\\Domain\\Branches.cs",
@@ -616,20 +704,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "BranchController.cs",
-              "DocumentMoniker": "E:\\Core\\VinxTech.API\\Controllers\\BranchController.cs",
-              "RelativeDocumentMoniker": "Controllers\\BranchController.cs",
-              "ToolTip": "E:\\Core\\VinxTech.API\\Controllers\\BranchController.cs",
-              "RelativeToolTip": "Controllers\\BranchController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAuAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-06T17:49:50.204Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 31,
               "Title": "ServiceController.cs",
               "DocumentMoniker": "E:\\Core\\VinxTech.API\\Controllers\\ServiceController.cs",
               "RelativeDocumentMoniker": "Controllers\\ServiceController.cs",
@@ -642,7 +717,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 32,
               "Title": "appsettings.json",
               "DocumentMoniker": "E:\\Core\\VinxTech.API\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -654,7 +729,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 57,
               "Title": "20241017035944_AddImages.cs",
               "DocumentMoniker": "E:\\Core\\VinxTech.API\\Migrations\\20241017035944_AddImages.cs",
               "RelativeDocumentMoniker": "Migrations\\20241017035944_AddImages.cs",
@@ -666,20 +741,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "DBBranchRepositories.cs",
-              "DocumentMoniker": "E:\\Core\\VinxTech.API\\Repositories\\Branches\\DBBranchRepositories.cs",
-              "RelativeDocumentMoniker": "Repositories\\Branches\\DBBranchRepositories.cs",
-              "ToolTip": "E:\\Core\\VinxTech.API\\Repositories\\Branches\\DBBranchRepositories.cs",
-              "RelativeToolTip": "Repositories\\Branches\\DBBranchRepositories.cs",
-              "ViewState": "AQIAACsAAAAAAAAAAAAkwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-15T17:54:46.648Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 33,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "E:\\Core\\VinxTech.API\\appsettings.Development.json",
               "RelativeDocumentMoniker": "appsettings.Development.json",
@@ -691,7 +753,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 56,
               "Title": "20241014033042_6th.cs",
               "DocumentMoniker": "E:\\Core\\VinxTech.API\\Migrations\\20241014033042_6th.cs",
               "RelativeDocumentMoniker": "Migrations\\20241014033042_6th.cs",
@@ -703,7 +765,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 34,
               "Title": "DBServiceRepositories.cs",
               "DocumentMoniker": "E:\\Core\\VinxTech.API\\Repositories\\Services\\DBServiceRepositories.cs",
               "RelativeDocumentMoniker": "Repositories\\Services\\DBServiceRepositories.cs",
@@ -716,7 +778,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 35,
               "Title": "Services.cs",
               "DocumentMoniker": "E:\\Core\\VinxTech.API\\Models\\Domain\\Services.cs",
               "RelativeDocumentMoniker": "Models\\Domain\\Services.cs",
@@ -729,7 +791,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 36,
               "Title": "IServiceRepositories.cs",
               "DocumentMoniker": "E:\\Core\\VinxTech.API\\Repositories\\Services\\IServiceRepositories.cs",
               "RelativeDocumentMoniker": "Repositories\\Services\\IServiceRepositories.cs",
@@ -741,7 +803,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 52,
               "Title": "20241009202456_5th.cs",
               "DocumentMoniker": "E:\\Core\\VinxTech.API\\Migrations\\20241009202456_5th.cs",
               "RelativeDocumentMoniker": "Migrations\\20241009202456_5th.cs",
@@ -753,7 +815,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 53,
               "Title": "20241009202052_4th.cs",
               "DocumentMoniker": "E:\\Core\\VinxTech.API\\Migrations\\20241009202052_4th.cs",
               "RelativeDocumentMoniker": "Migrations\\20241009202052_4th.cs",
@@ -765,7 +827,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 54,
               "Title": "20241009190155_AddServicesTable4.cs",
               "DocumentMoniker": "E:\\Core\\VinxTech.API\\Migrations\\20241009190155_AddServicesTable4.cs",
               "RelativeDocumentMoniker": "Migrations\\20241009190155_AddServicesTable4.cs",
@@ -777,7 +839,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 55,
               "Title": "20241009185442_AddServicesTable3.cs",
               "DocumentMoniker": "E:\\Core\\VinxTech.API\\Migrations\\20241009185442_AddServicesTable3.cs",
               "RelativeDocumentMoniker": "Migrations\\20241009185442_AddServicesTable3.cs",
@@ -789,7 +851,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 37,
               "Title": "20241009183606_AddServicesTable.cs",
               "DocumentMoniker": "E:\\Core\\VinxTech.API\\Migrations\\20241009183606_AddServicesTable.cs",
               "RelativeDocumentMoniker": "Migrations\\20241009183606_AddServicesTable.cs",
@@ -800,7 +862,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 38,
               "Title": "Logger.cs",
               "DocumentMoniker": "E:\\Core\\VinxTech.API\\Logger.cs",
               "RelativeDocumentMoniker": "Logger.cs",
@@ -812,7 +874,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 39,
               "Title": "launchSettings.json",
               "DocumentMoniker": "E:\\Core\\VinxTech.API\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "Properties\\launchSettings.json",
@@ -824,7 +886,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 40,
               "Title": "EditServiceRequestDTO.cs",
               "DocumentMoniker": "E:\\Core\\VinxTech.API\\Models\\DTOs\\Services\\EditServiceRequestDTO.cs",
               "RelativeDocumentMoniker": "Models\\DTOs\\Services\\EditServiceRequestDTO.cs",
@@ -837,7 +899,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 41,
               "Title": "ServiceRequestDTO.cs",
               "DocumentMoniker": "E:\\Core\\VinxTech.API\\Models\\DTOs\\Services\\ServiceRequestDTO.cs",
               "RelativeDocumentMoniker": "Models\\DTOs\\Services\\ServiceRequestDTO.cs",
@@ -850,7 +912,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 42,
               "Title": "EditBranchRequestDTO.cs",
               "DocumentMoniker": "E:\\Core\\VinxTech.API\\Models\\DTOs\\Branches\\EditBranchRequestDTO.cs",
               "RelativeDocumentMoniker": "Models\\DTOs\\Branches\\EditBranchRequestDTO.cs",
@@ -863,7 +925,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 43,
               "Title": "20241008111112_UpdateServices.cs",
               "DocumentMoniker": "E:\\Core\\VinxTech.API\\Migrations\\20241008111112_UpdateServices.cs",
               "RelativeDocumentMoniker": "Migrations\\20241008111112_UpdateServices.cs",
@@ -874,7 +936,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 44,
               "Title": "BranchRequestDTO.cs",
               "DocumentMoniker": "E:\\Core\\VinxTech.API\\Models\\DTOs\\Branches\\BranchRequestDTO.cs",
               "RelativeDocumentMoniker": "Models\\DTOs\\Branches\\BranchRequestDTO.cs",
@@ -887,7 +949,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 45,
               "Title": "VinxTech.API",
               "DocumentMoniker": "E:\\Core\\VinxTech.API\\VinxTech.API.csproj",
               "RelativeDocumentMoniker": "VinxTech.API.csproj",
@@ -898,7 +960,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 51,
               "Title": "DeleteBranchRequestDTO.cs",
               "DocumentMoniker": "E:\\Core\\VinxTech.API\\Models\\DTOs\\DeleteBranchRequestDTO.cs",
               "RelativeDocumentMoniker": "Models\\DTOs\\DeleteBranchRequestDTO.cs",
@@ -909,7 +971,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 46,
               "Title": "ResponseDTO.cs",
               "DocumentMoniker": "E:\\Core\\VinxTech.API\\Models\\ResponseDTOs\\ResponseDTO.cs",
               "RelativeDocumentMoniker": "Models\\ResponseDTOs\\ResponseDTO.cs",
@@ -922,7 +984,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 47,
               "Title": "20240930040122_2d Migration.cs",
               "DocumentMoniker": "E:\\Core\\VinxTech.API\\Migrations\\20240930040122_2d Migration.cs",
               "RelativeDocumentMoniker": "Migrations\\20240930040122_2d Migration.cs",
@@ -933,7 +995,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 48,
               "Title": "20240928064455_7th Migration.cs",
               "DocumentMoniker": "E:\\Core\\VinxTech.API\\Migrations\\20240928064455_7th Migration.cs",
               "RelativeDocumentMoniker": "Migrations\\20240928064455_7th Migration.cs",
@@ -944,7 +1006,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 49,
               "Title": "20240928064351_6th Migration.cs",
               "DocumentMoniker": "E:\\Core\\VinxTech.API\\Migrations\\20240928064351_6th Migration.cs",
               "RelativeDocumentMoniker": "Migrations\\20240928064351_6th Migration.cs",
@@ -955,7 +1017,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 50,
               "Title": "20240922114159_InitialMigration.cs",
               "DocumentMoniker": "E:\\Core\\VinxTech.API\\Migrations\\20240922114159_InitialMigration.cs",
               "RelativeDocumentMoniker": "Migrations\\20240922114159_InitialMigration.cs",
