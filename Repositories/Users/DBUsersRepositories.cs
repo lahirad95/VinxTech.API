@@ -1,6 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using System.Drawing.Printing;
 using VinxTech.API.Data;
 using VinxTech.API.Functions;
 using VinxTech.API.Models.Domain;
@@ -134,6 +135,93 @@ namespace VinxTech.API.Repositories
             }
             return (userGetAllResponseDTOs, UserCount);
         }
+
+        public async Task<UserGetAllResponseDTO> GetbyId(long id)
+        {
+            UserGetAllResponseDTO userGetAllResponseDTOs = new UserGetAllResponseDTO();
+
+
+            // Query to get the employee data with paging
+            var users = await(
+                from es in vinxDbContext.Users
+                join s in vinxDbContext.Branches
+                on es.Breanch equals s.Id
+                join r in vinxDbContext.Roles
+                on es.Role equals r.Id
+                where es.IdNumber == id
+                select new
+                {
+
+                    Username = es.Username,
+                    firstNameEn = es.firstNameEn,
+                    lastNameEn = es.lastNameEn,
+                    firstNameAr = es.firstNameAr,
+                    lastNameAr = es.lastNameAr,
+                    Email = es.Email,
+                    MobileNumber = es.MobileNumber,
+                    DOB = es.DOB,
+                    IdNumber = es.IdNumber,
+                    IdExpiryDate = es.IdExpiryDate,
+                    Role = es.Role,
+                    HireDate = es.HireDate,
+                    IsActive = es.IsActive,
+                    Image = es.Image,
+                    CreatedDate = es.CreatedAt,
+                    Gender = es.Gender,
+                    Nationality = es.Nationality,
+
+                    BreanchAr = s.NameAr,
+                    BreanchEn = s.NameEn,
+                    BreanchId = s.Id,
+                    BreanchDescriptionEn = s.DescriptionEn,
+                    BreanchDescriptionAr = s.DescriptionAr,
+
+                    RoleName = r.Name,
+                    RoleDescription = r.Description,
+                    RoleId = r.Id,
+
+
+                }
+            ).FirstOrDefaultAsync();
+
+            if (users != null )
+            {
+
+                // Create a new EmployeebyIdResponse for each employee
+                UserGetAllResponseDTO userGetAllResponse = new UserGetAllResponseDTO
+                {
+                    Username = users.Username,
+                    firstNameEn = users.firstNameEn,
+                    lastNameEn = users.lastNameEn,
+                    firstNameAr = users.firstNameAr,
+                    lastNameAr = users.lastNameAr,
+                    Email = users.Email,
+                    MobileNumber = users.MobileNumber,
+                    DOB = users.DOB,
+                    IdNumber = users.IdNumber,
+                    HireDate = users.HireDate,
+                    IdExpiryDate = users.IdExpiryDate,
+                    IsActive = users.IsActive,
+                    Image = users.Image,
+                    Gender = users.Gender,
+                    Nationality = users.Nationality,
+
+                    Breanch = users.BreanchId,
+                    BreanchEn = users.BreanchEn,
+                    BreanchAr = users.BreanchAr,
+                    BreanchDescriptionEn = users.BreanchDescriptionEn,
+                    BreanchDescriptionAr = users.BreanchDescriptionAr,
+
+                    RoleName = users.RoleName,
+                    RoleDescription = users.RoleDescription,
+                    RoleId = users.RoleId,
+                };
+                return (userGetAllResponse);
+            }
+
+            return userGetAllResponseDTOs;
+        }
+
         public async Task<bool> login(LoginRequestDTO loginRequestDTO)
         {
             try

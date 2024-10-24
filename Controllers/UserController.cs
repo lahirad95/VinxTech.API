@@ -218,7 +218,7 @@ namespace VinxTech.API.Controllers
                     var responseData = new ResponseDTO
                     {
                         Status = "success",
-                        Message = "Status Deleted Successfully",
+                        Message = "User Deleted Successfully",
                         Data = new { },
                         Errors = new List<string>()
                     };
@@ -233,7 +233,7 @@ namespace VinxTech.API.Controllers
                         Data = new { },
                         Errors = new List<string>()
                     };
-                    return Ok(responseData);
+                    return BadRequest(responseData);
                 }
             }
             catch (Exception ex)
@@ -246,7 +246,7 @@ namespace VinxTech.API.Controllers
                     Data = new { },
                     Errors = new List<string>()
                 };
-                return BadRequest(responseData); throw;
+                return BadRequest(responseData);
             }
         }
 
@@ -312,5 +312,35 @@ namespace VinxTech.API.Controllers
                 return BadRequest(responseData);
             }
         }
+
+        [HttpGet("get/{id:long}")]
+        [ValidateModel]
+        public async Task<IActionResult> GetbyId([FromRoute] long id)
+        {
+            try
+            {
+                var employee = await userRepositories.GetbyId(id);
+                var responseData = new ResponseDTO
+                {
+                    Status = "True",
+                    Message = "",
+                    Data = new { employee },
+                    Errors = new List<string>()
+                };
+                return Ok(responseData);
+            }
+            catch (Exception ex)
+            {
+                var responseData = new ResponseDTO
+                {
+                    Status = "False",
+                    Message = "Issue in Get User.",
+                    Data = new { },
+                    Errors = new List<string>()
+                };
+                return BadRequest(responseData);
+            }
+        }
+
     }
 }

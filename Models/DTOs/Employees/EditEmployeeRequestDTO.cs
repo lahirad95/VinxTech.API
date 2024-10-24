@@ -19,8 +19,8 @@ namespace VinxTech.API.Models.DTOs.Employees
         [Required]
         public DateTime DOB { get; set; }
         public DateTime? HireDate { get; set; }
-        [Required]
-        public DateTime IdExpiryDate { get; set; }
+      
+        public DateTime? IdExpiryDate { get; set; }
         //[Required]
         //public Boolean IsActive { get; set; }
         [Required]

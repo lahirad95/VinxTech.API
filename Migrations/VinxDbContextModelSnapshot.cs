@@ -112,7 +112,7 @@ namespace VinxTech.API.Migrations
                     b.Property<DateTime?>("HireDate")
                         .HasColumnType("datetime2");
 
-                    b.Property<DateTime>("IdExpiryDate")
+                    b.Property<DateTime?>("IdExpiryDate")
                         .HasColumnType("datetime2");
 
                     b.Property<long>("IdNumber")
@@ -187,34 +187,42 @@ namespace VinxTech.API.Migrations
                         new
                         {
                             Id = 1,
-                            CreatedAt = new DateTime(2024, 10, 20, 19, 13, 21, 23, DateTimeKind.Utc).AddTicks(4526),
+                            CreatedAt = new DateTime(2024, 10, 24, 4, 18, 17, 67, DateTimeKind.Utc).AddTicks(2563),
                             Description = "Has full access to all system features and can manage all users, settings, and roles.",
                             Name = "Super Admin",
-                            UpdatedAt = new DateTime(2024, 10, 20, 19, 13, 21, 23, DateTimeKind.Utc).AddTicks(4529)
+                            UpdatedAt = new DateTime(2024, 10, 24, 4, 18, 17, 67, DateTimeKind.Utc).AddTicks(2566)
                         },
                         new
                         {
                             Id = 2,
-                            CreatedAt = new DateTime(2024, 10, 20, 19, 13, 21, 23, DateTimeKind.Utc).AddTicks(4535),
+                            CreatedAt = new DateTime(2024, 10, 24, 4, 18, 17, 67, DateTimeKind.Utc).AddTicks(2569),
                             Description = "Can manage users and settings, but has limited access to sensitive system configurations.",
                             Name = "Admin",
-                            UpdatedAt = new DateTime(2024, 10, 20, 19, 13, 21, 23, DateTimeKind.Utc).AddTicks(4536)
+                            UpdatedAt = new DateTime(2024, 10, 24, 4, 18, 17, 67, DateTimeKind.Utc).AddTicks(2570)
                         },
                         new
                         {
                             Id = 3,
-                            CreatedAt = new DateTime(2024, 10, 20, 19, 13, 21, 23, DateTimeKind.Utc).AddTicks(4538),
+                            CreatedAt = new DateTime(2024, 10, 24, 4, 18, 17, 67, DateTimeKind.Utc).AddTicks(2573),
                             Description = "Has access to basic features and functionalities necessary for daily operations.",
                             Name = "Employee",
-                            UpdatedAt = new DateTime(2024, 10, 20, 19, 13, 21, 23, DateTimeKind.Utc).AddTicks(4539)
+                            UpdatedAt = new DateTime(2024, 10, 24, 4, 18, 17, 67, DateTimeKind.Utc).AddTicks(2573)
                         },
                         new
                         {
                             Id = 4,
-                            CreatedAt = new DateTime(2024, 10, 20, 19, 13, 21, 23, DateTimeKind.Utc).AddTicks(4541),
+                            CreatedAt = new DateTime(2024, 10, 24, 4, 18, 17, 67, DateTimeKind.Utc).AddTicks(2576),
                             Description = "Responsible for handling transactions and managing customer payments.",
                             Name = "Cashier",
-                            UpdatedAt = new DateTime(2024, 10, 20, 19, 13, 21, 23, DateTimeKind.Utc).AddTicks(4542)
+                            UpdatedAt = new DateTime(2024, 10, 24, 4, 18, 17, 67, DateTimeKind.Utc).AddTicks(2576)
+                        },
+                        new
+                        {
+                            Id = 5,
+                            CreatedAt = new DateTime(2024, 10, 24, 4, 18, 17, 67, DateTimeKind.Utc).AddTicks(2578),
+                            Description = "Responsible for handling the Branch.",
+                            Name = "Branch Manager",
+                            UpdatedAt = new DateTime(2024, 10, 24, 4, 18, 17, 67, DateTimeKind.Utc).AddTicks(2579)
                         });
                 });
 

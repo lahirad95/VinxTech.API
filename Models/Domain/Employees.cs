@@ -18,7 +18,7 @@ namespace VinxTech.API.Models.Domain
         public DateTime DOB { get; set; }
         public Int64 IdNumber { get; set; }
         public DateTime? HireDate { get; set; }
-        public DateTime IdExpiryDate { get; set; }
+        public DateTime? IdExpiryDate { get; set; }
         public Boolean IsActive { get; set; }
         public int Branch { get; set; }
         public int CretedBy { get; set; }

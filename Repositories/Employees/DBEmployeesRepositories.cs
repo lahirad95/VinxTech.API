@@ -425,9 +425,7 @@ namespace VinxTech.API.Repositories.Employees
                     ServiceDescriptionAr = item.ServiceDescriptionAr,
                 });
             }
-
             return employeebyIdResponse;
-
         }
         public async Task<bool> userActivation(EmployeeActivationRequestDTO employeeActivationRequestDTO)
         {

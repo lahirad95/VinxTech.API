@@ -110,6 +110,14 @@ namespace VinxTech.API.Data
                     Description = "Responsible for handling transactions and managing customer payments.",
                     CreatedAt = DateTime.UtcNow,
                     UpdatedAt = DateTime.UtcNow,
+                },
+                new Roles
+                {
+                    Id = 5,
+                    Name = "Branch Manager",
+                    Description = "Responsible for handling the Branch.",
+                    CreatedAt = DateTime.UtcNow,
+                    UpdatedAt = DateTime.UtcNow,
                 }
 
             };

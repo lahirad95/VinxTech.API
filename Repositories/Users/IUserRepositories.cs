@@ -20,5 +20,7 @@ namespace VinxTech.API.Repositories
         Task<UpdateRequestDTO> Update(string UserId,UpdateRequestDTO updateRequestDTO);
 
         Task<(List<UserGetAllResponseDTO>, Int32 TotalCount)> GetAll(Int32 PageNumber, Int32 PageSize);
+
+        Task<UserGetAllResponseDTO> GetbyId(Int64 id);
     }
 }

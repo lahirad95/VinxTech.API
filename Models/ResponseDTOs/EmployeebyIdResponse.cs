@@ -14,7 +14,7 @@ namespace VinxTech.API.Models.ResponseDTOs
         public Int64 IdNumber { get; set; }
 
         public DateTime? HireDate { get; set; }
-        public DateTime IdExpiryDate { get; set; }
+        public DateTime? IdExpiryDate { get; set; }
         public Boolean IsActive { get; set; }
         public List<EmployeeBranch> Branch { get; set; }
         public int CretedBy { get; set; }
